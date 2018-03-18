@@ -1,0 +1,49 @@
+
+/* add your CSS here */
+.main_card {
+	width            : 300px;
+	padding          : 15px;
+
+	background-color : rgb(204, 204, 255);
+	background-image : url("light.jpg");
+	border           : 2px solid rgb(255, 221, 153);
+	border-radius    : 12px;
+	box-shadow       : 10px 10px 49px 1px rgba(0, 153, 255, 0.7);
+}
+
+.main_text {
+	width         : 290px;
+	padding       : 5px;
+
+	border        : 2px solid rgb(255, 221, 153);
+	border-radius : 7px 7px 7px 7px;
+}
+
+.narration {
+	font-style: italic;
+}
+
+.facts {
+	font-weight: bold;
+}
+
+.title {
+	height      : 20px;
+	text-indent : 101px;
+	margin-top: 10px; /*use to lower or lift*/
+}
+
+.pug_image {
+	z-index       : -1;
+
+	margin-top    : 15px;
+
+	border        : 2px solid rgb(255, 221, 153);
+	border-radius : 120px 120px 5px 5px;
+	box-shadow    : 0 0 50px 15px rgba(255, 255, 153, 0.7);
+}
+
+.animal_attributes {
+	margin-left: -20px; /*this this you can move the list to the left*/
+	list-style-type: none; /*this removes the dots in the ul list*/
+}
